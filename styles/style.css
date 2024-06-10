@@ -1,5 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
+
+
 .page {
+  font-family: var(--font-family, sans-serif);
+  background-color: var(--color-background, #000028);
+  color: var(--color-text-primary);
+  font-size: var(--font-size);
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
 }
