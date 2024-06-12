@@ -1,26 +1,15 @@
 :root {
   --font-family: "IBM Plex mono";
+  --font-size: 18px;
+  --line-height: 23.4px;
+
   --accent-color: #ff0070;
   --color-background: #000028;
-  --color-foreground: #ffffff;
-  --font-size: 18px;
-  --color-title: #DB00FF;
-  --color-secondary: #03dac6;
-
-  /* Text Colors */
-  --color-text-primary: #F1B2CE;
-  --color-text-secondary: #b3b3b3;
-  --color-text-muted: #8a8a8a;
-
-  /* Border Colors */
-  --color-border: #333333;
-
-  /* Shadow Colors */
-  --shadow-primary: rgba(0, 0, 0, 0.4);
-  --shadow-secondary: rgba(0, 0, 0, 0.2);
-  --main-text-color: ;
-  --main-background-color: ;
-  --cover-image: url(../images/cover-image.png);;
+  --title-color: #DB00FF;
+  --button-hover-border: #FF007066;
+  --main-text-color: #F1B2CE;
+  --secondary-text-color: #000028;
+; --background-image: url(../images/cover-image.png);
 }
 /*
   Переменные для вашего проекта

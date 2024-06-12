@@ -10,3 +10,13 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+:root .theme_dark {
+  --accent-color: #ff0070;
+  --color-background: #000028;
+  --title-color: #DB00FF;
+  --button-hover-border: #FF007066;
+  --main-text-color: #F1B2CE;
+  --secondary-text-color: #000028;
+; --background-image: url(../images/cover-image-dark.png);
+}
