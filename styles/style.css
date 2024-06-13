@@ -1,5 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
+* {
+  outline: 1px solid;
+}
 
 
 .page {
@@ -215,6 +217,7 @@
 .item__title {
   color: var(--secondary-text-color);
   background: var(--accent-color, #ff0070);
+  font-size: var(--font-size);
 }
 
 .tips__title {
@@ -277,11 +280,7 @@
   grid-row-start: span 2;
 }
 
-@media screen and (max-width: 768px) {
-
-  .header {
-
-  }
+@media screen and (width <= 1023px) {
 
   .header__theme-menu {
     justify-self: flex-end;
@@ -299,7 +298,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (width <= 375px) {
 
   .header {
     padding-inline: 10px;
