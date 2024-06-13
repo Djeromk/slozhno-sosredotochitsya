@@ -59,7 +59,7 @@
   border-inline-start: 1px solid var(--section-font-color, #ff0070);
   border-block-end: 1px solid var(--section-font-color, #ff0070);
   inset-inline-start: 20px;
-  inset-block-end: 40px;
+  inset-block-end: 20px;
 }
 
 .rec-icon {
@@ -148,7 +148,6 @@
   justify-content: center;
   align-items: center;
   min-block-size: 100vh;
-  padding-block-start: 20px;
 }
 
 .footer__title {
@@ -281,17 +280,28 @@
 
   .header__theme-menu {
     justify-self: flex-end;
-    align-self: end;
+    align-self: center;
     padding-inline-end: 20px;
-    padding-block-end: 20px;
   }
 
   .header__theme-menu-list {
     flex-direction: column;
   }
 
+  .description {
+    gap: 20px;
+  }
+
+  .reasons__title {
+    max-width: 160px;
+  }
+
   .reasons__list {
     grid-template-columns: auto;
+  }
+
+  .tips {
+    gap: 20px;
   }
 }
 
