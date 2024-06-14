@@ -10,10 +10,6 @@
   --button-hover-border: #FF007066;
   --main-text-color: #F1B2CE;
   --secondary-text-color: #000028;
-  --background-image: url(../images/cover-image.png);
+  --background-image: url(../images/cover-image-dark.png);
   --rec-visibility: visible;
 }
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
