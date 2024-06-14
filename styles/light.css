@@ -8,6 +8,7 @@
   --secondary-text-color: #353430;
   --background-image: url(../images/cover-image-light.png);
   --rec-visibility: hidden;
+  --button-focus: #353430;
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,5 +22,6 @@
     --secondary-text-color: #353430;
     --background-image: url(../images/cover-image-light.png);
     --rec-visibility: hidden;
+    --button-focus: #353430;
     }
 }

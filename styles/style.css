@@ -20,19 +20,19 @@
 .header__theme-menu {
   display: flex;
   justify-content: center;
-  padding-block-start: 18px;
-  line-height: 152%;
+
 }
 
 .header__theme-menu-list {
   display: flex;
   gap: 10px;
   list-style: none;
+  padding-block-start: 18px;
 }
 
 .header__theme-menu-button {
   appearance: none;
-  padding: 2px 13px;
+  padding: 3px 12px;
   font-size: inherit;
   font-family: inherit;
   line-height: 18px;
@@ -57,7 +57,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--button-hover-border);
+  border-bottom: 1px solid var(--button-focus, #FF0070);
 }
 
 
@@ -99,14 +99,14 @@
 .rec-icon {
   position: absolute;
   display: inline-flex;
-  line-height: 1;
+  line-height: 25px;
   visibility: var(--rec-visibility, visible);
   gap: 10px;
   text-transform: uppercase;
   align-items: center;
   color: var(--accent-color);
   inset-inline-end: 28px;
-  inset-block-start: 23px;
+  inset-block-start: 20px;
 }
 
 .rec-icon::after {
@@ -259,7 +259,7 @@
 .footer__title {
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  line-height: 129.5px;
+  line-height: 82.5%;
   text-align: center;
   color: var(--title-color, #DB00FF);
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
@@ -271,15 +271,12 @@
 @media screen and (width <= 1023px) {
 
   .rec-icon {
-    line-height: 130%;
     inset-block-start: 21px;
   }
 
   .header__theme-menu {
     justify-self: flex-end;
     align-self: center;
-    padding-inline-end: 20px;
-    padding-block-start: 17px;
   }
 
   .header__theme-menu-button {
@@ -288,6 +285,7 @@
 
   .header__theme-menu-list {
     flex-direction: column;
+    padding-inline-end: 20px;
   }
 
   .header__description {
@@ -326,15 +324,10 @@
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  .header__theme-menu {
-    padding-inline-end: 0px;
-    padding-block-end: 9px;
-    padding-block-start: 15px;
-    line-height: 152%;
-  }
+  .header__theme-menu-list {
+    padding-inline-end: 0;
+    padding-block-start: 8px;
 
-  .header__theme-menu-button {
-    padding: 2px 13px;
   }
 
   .header__description {
@@ -386,7 +379,6 @@
   .rec-icon {
     inset-inline-end: 19px;
     inset-block-start: 10px;
-    line-height: 141%;
   }
 
   .footer__title {
